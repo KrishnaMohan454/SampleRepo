@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DocumentCapture'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DocumentCapture.'
+  s.summary          = 'R&D on cocoapods.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+publish cocoapods & utilize into app .
                        DESC
 
-  s.homepage         = 'https://github.com/KrishnaMohan454/DocumentCapture'
+  s.homepage         = 'https://github.com/KrishnaMohan454/SampleRepo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'KrishnaMohan454' => 'krishnamohan@authenticid.co' }
-  s.source           = { :git => 'https://github.com/KrishnaMohan454/DocumentCapture.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/KrishnaMohan454/SampleRepo.git', :tag => "0.1.0" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
+  s.ios.requires_arc = false
+  s.ios.vendored_frameworks = 'DSCapture.framework'
 
-  s.source_files = 'DocumentCapture/Classes/**/*'
+  #s.source_files = 'DocumentCapture/Classes/**/*'
   
   # s.resource_bundles = {
   #   'DocumentCapture' => ['DocumentCapture/Assets/*.png']
