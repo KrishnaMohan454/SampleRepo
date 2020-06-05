@@ -40,8 +40,8 @@
 		1F53220C6D11383E3B5AB5A4 /* Pods_DocumentCapture_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocumentCapture_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3904B12A9B8075BBFF24A1EA /* Pods-DocumentCapture_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentCapture_Example.release.xcconfig"; path = "Target Support Files/Pods-DocumentCapture_Example/Pods-DocumentCapture_Example.release.xcconfig"; sourceTree = "<group>"; };
 		55A98D7925F520683AD6E45D /* Pods-DocumentCapture_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentCapture_Example.debug.xcconfig"; path = "Target Support Files/Pods-DocumentCapture_Example/Pods-DocumentCapture_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5660D9C7130644512514EE28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5A977E69AFBA263F7376BE49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5660D9C7130644512514EE28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5A977E69AFBA263F7376BE49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DocumentCapture_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentCapture_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		6AC5D718E0366F51A3A1784A /* Pods_DocumentCapture_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocumentCapture_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A04B6C7BFA56A539205C8AD8 /* DocumentCapture.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DocumentCapture.podspec; path = ../DocumentCapture.podspec; sourceTree = "<group>"; };
+		A04B6C7BFA56A539205C8AD8 /* DocumentCapture.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DocumentCapture.podspec; path = ../DocumentCapture.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B0E63ECE4FDC9639129802A2 /* Pods-DocumentCapture_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentCapture_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DocumentCapture_Tests/Pods-DocumentCapture_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDA5F4D193D0847804E86634 /* Pods-DocumentCapture_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentCapture_Tests.release.xcconfig"; path = "Target Support Files/Pods-DocumentCapture_Tests/Pods-DocumentCapture_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				B0E63ECE4FDC9639129802A2 /* Pods-DocumentCapture_Tests.debug.xcconfig */,
 				BDA5F4D193D0847804E86634 /* Pods-DocumentCapture_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
