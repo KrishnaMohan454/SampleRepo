@@ -12,6 +12,7 @@
 		4B40BA77EEE572FC87A1974E36B652AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		500011B053344B82F90DD7AE75CD6F91 /* Pods-DocumentCapture_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6160B7B16EB0A1A33963C2B334CF9CF /* Pods-DocumentCapture_Example-dummy.m */; };
 		877D41DF248A444400A8B5FC /* DSCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877D41DE248A444400A8B5FC /* DSCapture.framework */; };
+		877D426A248A569D00A8B5FC /* DemoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877D4269248A569D00A8B5FC /* DemoFramework.framework */; };
 		99D3B5E7AC74A63C7994BBAB84877575 /* Pods-DocumentCapture_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E4B5BF67BBD6D3AD340C6371F9F491 /* Pods-DocumentCapture_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1A4CDC4AF8D066F1CCB31656B6EED7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B9DFFFF8DE514F93F7227F1564A6BABE /* DocumentCapture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBDD8C78CD3108115AAC83B65323B0A2 /* DocumentCapture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,6 +59,7 @@
 		863895250301285DEA45967B816472CC /* Pods-DocumentCapture_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DocumentCapture_Tests-Info.plist"; sourceTree = "<group>"; };
 		87156A1713873E2B5F047B1FF8DCB628 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		877D41DE248A444400A8B5FC /* DSCapture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DSCapture.framework; sourceTree = "<group>"; };
+		877D4269248A569D00A8B5FC /* DemoFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DemoFramework.framework; sourceTree = "<group>"; };
 		8BE718ABFCF85CA57ACB28C9464424F3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DocumentCapture/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		91D125E05F17E4EF957C9A68658BBAA7 /* Pods-DocumentCapture_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DocumentCapture_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9A4CD94FBE179D5407991DBAA13674DA /* Pods-DocumentCapture_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DocumentCapture_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				877D41DF248A444400A8B5FC /* DSCapture.framework in Frameworks */,
+				877D426A248A569D00A8B5FC /* DemoFramework.framework in Frameworks */,
 				A1A4CDC4AF8D066F1CCB31656B6EED7D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,6 +166,7 @@
 		96EEE441B7DB5F9F0490D5CCFD242DE8 /* DocumentCapture */ = {
 			isa = PBXGroup;
 			children = (
+				877D4269248A569D00A8B5FC /* DemoFramework.framework */,
 				877D41DE248A444400A8B5FC /* DSCapture.framework */,
 				8BE718ABFCF85CA57ACB28C9464424F3 /* ReplaceMe.m */,
 				C17128BAF2F92DE705D1446A91223F13 /* Pod */,

@@ -30,7 +30,7 @@ publish cocoapods & utilize into app .
 
   s.ios.deployment_target = '12.0'
   s.ios.requires_arc = false
-  s.ios.vendored_frameworks = 'DSCapture.framework'
+  s.ios.vendored_frameworks = 'DemoFramework.framework'
 
   #s.source_files = 'DocumentCapture/Classes/**/*'
   
