@@ -1,0 +1,16 @@
+PODS:
+  - DocumentCapture (0.1.0)
+
+DEPENDENCIES:
+  - DocumentCapture (from `../`)
+
+EXTERNAL SOURCES:
+  DocumentCapture:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DocumentCapture: 363455ed4c03ad9693ab4b8436f419684440c2fc
+
+PODFILE CHECKSUM: c829203bc723ed1c85e435d988f9bbff43435c75
+
+COCOAPODS: 1.9.1
